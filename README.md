@@ -1,24 +1,48 @@
-# RoomLoop - Micro-Meetup App
+# RoomLoop - Micro-Meetup Platform
 
-RoomLoop is a web application for creating and joining micro-meetups with focused discussions, quick collaborations, and meaningful connections.
+![RoomLoop Desktop View](assets/room_loop_homepage.png)
+![RoomLoop Mobile View](assets/room_loop_mobile.png)
 
-![CI](https://github.com/yourusername/roomloop-app/actions/workflows/ci.yml/badge.svg)
-![Deploy](https://github.com/yourusername/roomloop-app/actions/workflows/deploy.yml/badge.svg)
+[![CI](https://github.com/yourusername/roomloop-app/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/roomloop-app/actions/workflows/ci.yml)
+[![Deploy](https://github.com/yourusername/roomloop-app/actions/workflows/deploy.yml/badge.svg)](https://github.com/yourusername/roomloop-app/actions/workflows/deploy.yml)
 
-## Features
+## Live Demo
+Visit the live application at: [RoomLoop](https://room-loop-ten.vercel.app/)
 
-- **User Authentication**: Sign up, sign in, and manage your profile
-- **Room Creation**: Create rooms with specific topics, time slots, and tags
-- **Room Discovery**: Browse rooms by status (scheduled, live, closed) and tags
-- **Live Chat**: Participate in discussions when rooms are live
-- **Automatic Status Updates**: Rooms automatically switch from scheduled to live to closed based on the set timeframe
+## Overview
+
+RoomLoop is a modern web application designed to facilitate micro-meetups and focused discussions. It enables users to create and join time-bounded virtual rooms for meaningful collaborations and connections. The platform automatically manages room lifecycles, transitioning them from scheduled to live to closed states based on predefined timeframes.
+
+### Key Features
+
+- **Smart Room Management**: Create rooms with specific topics, time slots, and tags
+- **Real-time Communication**: Engage in live discussions with text messages and emoji reactions
+- **Intelligent Scheduling**: Automatic room status transitions based on timeframes
+- **User Authentication**: Secure sign-up and sign-in functionality
+- **Responsive Design**: Seamless experience across desktop and mobile devices
 
 ## Tech Stack
 
-- **Frontend**: Next.js, React, TailwindCSS
-- **Backend**: Next.js API Routes
-- **Database**: MongoDB with Mongoose
+### Frontend
+- **Framework**: Next.js 14 (React)
+- **Styling**: TailwindCSS
+- **State Management**: React Context API
+- **UI Components**: Custom components with TailwindCSS
+- **Type Safety**: TypeScript
+
+### Backend
+- **Runtime**: Node.js
+- **API Routes**: Next.js API Routes
+- **Database**: MongoDB with Mongoose ODM
 - **Authentication**: NextAuth.js
+- **API Documentation**: Swagger/OpenAPI
+
+### DevOps & Tools
+- **Version Control**: Git
+- **CI/CD**: GitHub Actions
+- **Deployment**: Vercel
+- **Code Quality**: ESLint, Prettier
+- **Testing**: Jest
 
 ## Getting Started
 
